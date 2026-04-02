@@ -1,3 +1,37 @@
+## 🎤 Assistente de Voz com IA
+
+Este projeto consiste no desenvolvimento de um assistente virtual com interação por voz, utilizando inteligência artificial para transcrição, processamento e resposta em linguagem natural.
+
+A aplicação permite que o usuário envie um áudio com uma pergunta, que é convertida em texto por meio de um modelo de reconhecimento de fala. Em seguida, esse texto é processado por um modelo de linguagem, que gera uma resposta inteligente. Por fim, a resposta é convertida novamente em áudio, proporcionando uma experiência completa de interação por voz.
+
+## 🚀 Tecnologias Utilizadas
+
+- Whisper (Speech-to-Text)
+- API da OpenAI (geração de respostas)
+- gTTS (Text-to-Speech)
+- Google Colab
+
+## ⚙️ Como o projeto foi desenvolvido
+
+O desenvolvimento foi realizado no ambiente do Google Colab, onde foram integradas diferentes etapas:
+
+1. Captura ou upload de áudio
+2. Transcrição do áudio para texto utilizando Whisper
+3. Envio do texto para a API da OpenAI
+4. Geração de resposta com base em inteligência artificial
+5. Conversão da resposta em áudio utilizando gTTS
+
+## 🧠 Uso de IA no desenvolvimento
+
+Durante o desenvolvimento, foram utilizados prompts como apoio para construção e entendimento do código, auxiliando na integração das bibliotecas, na estruturação das funções e na resolução de erros.
+
+Essa abordagem permitiu acelerar o aprendizado e aplicar conceitos práticos de desenvolvimento com inteligência artificial.
+
+## 🎯 Objetivo
+
+O objetivo do projeto é demonstrar a aplicação prática de IA em sistemas interativos, combinando processamento de linguagem natural e reconhecimento de voz para criar uma experiência de usuário mais natural e acessível.
+
+
 This directory includes a few sample datasets to get you started.
 
 *   `california_housing_data*.csv` is California housing data from the 1990 US
